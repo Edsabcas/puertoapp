@@ -16,14 +16,14 @@ class ComprobantemesaordenComponent extends Component
     public $noOrden,$no_mesa,$mesero,$fecha,$mon,$idpedido,$tpago,$nombreMesero;
     public $m,$cance,$op,$nom_cliente,$telef,$dire,$propinas,$valorpro,$monto_efec,$tpedido;
     public $valorinput,$notc,$cuentamasrecargo,$detallepedidos2;
-    public $array1=array(),$cambio,$mo,$cuentainput;
+    public $tipo_selc_impri,$serie,$autorizacion,$dte,$nit_cert,$nomb_cert,$fecha_cert,$nombre_emisor,$nombre_comercial_emisor,$direccion_emisor,$nit_emisor;
+   public $array1=array(),$cambio,$mo,$cuentainput;
     public $idpedg,$opad,$valorcambio,$t_pedido,$mprop,$valoradomicilio,$valoradomicilio1;
     public $estado_p,$estado_ex,$productos,$cui_unic;
     public $pago_mixto,$monto_tc_par,$cuentainput2,$monto_efec2,$sumaefetc,$recargo_tc2;
     public $array2=array(),$mensaje,$existe,$respuesta,$forma_fac,$avalorpro;
     public $fel,$nitcliente,$nombcliente,$direccioncliente,$nitclientereg,$nombclientereg,$direccionclientereg;
-    public $tipo_selc_impri,$serie,$autorizacion,$dte,$nit_cert,$nomb_cert,$fecha_cert,$nombre_emisor,$nombre_comercial_emisor,$direccion_emisor,$nit_emisor;
-    public function render()
+   public function render()
     {
         $anio=date("Y");
         $mes=date("m");
@@ -4249,7 +4249,7 @@ class ComprobantemesaordenComponent extends Component
             }else
             {
                 $id=$this->idpedg;
-                
+
                 
             }
         }

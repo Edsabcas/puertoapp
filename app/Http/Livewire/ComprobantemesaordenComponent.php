@@ -4242,12 +4242,14 @@ class ComprobantemesaordenComponent extends Component
                 'autorizacion' => 'required',
                 'serie' => 'required',
                 'dte' => 'required',  
-                'cui_unic' => 'required',  
+                'cui_unic' => 'required',
+                'forma_fac'=>'required'
                 ])==false){
                 return  back()->withErrors(['mensaje'=>'Validar el input vacio']);
             }else
             {
                 $id=$this->idpedg;
+                
                 
             }
         }

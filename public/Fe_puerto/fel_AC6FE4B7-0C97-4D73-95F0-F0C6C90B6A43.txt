@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><RegistraDocumentoXMLResponse><xml_dte>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;&lt;dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1"&gt;&lt;dte:SAT ClaseDocumento="dte"&gt;&lt;dte:DTE ID="DatosCertificados"&gt;&lt;dte:DatosEmision ID="DatosEmision"&gt;&lt;dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2022-06-24T16:07:43" Tipo="FACT"/&gt;&lt;dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" NITEmisor="9545131" NombreComercial="Restaurante de Mariscos el puerto" NombreEmisor="OTTO EZEQUIEL GALVEZ CORTES"&gt;&lt;dte:DireccionEmisor&gt;&lt;dte:Direccion&gt;CARRETERA INTERAMERICANA KM 53 5 ALDEA LOS PLANES Chimaltenango,&lt;/dte:Direccion&gt;&lt;dte:CodigoPostal&gt;0&lt;/dte:CodigoPostal&gt;&lt;dte:Municipio&gt;CHIMALTENANGO&lt;/dte:Municipio&gt;&lt;dte:Departamento&gt;CHIMALTENANGO&lt;/dte:Departamento&gt;&lt;dte:Pais&gt;GT&lt;/dte:Pais&gt;&lt;/dte:DireccionEmisor&gt;&lt;/dte:Emisor&gt;&lt;dte:Receptor CorreoReceptor="" IDReceptor="CF" NombreReceptor="Consumidor final"&gt;&lt;dte:DireccionReceptor&gt;&lt;dte:Direccion&gt;.&lt;/dte:Direccion&gt;&lt;dte:CodigoPostal&gt;0&lt;/dte:CodigoPostal&gt;&lt;dte:Municipio&gt;GUATEMALA&lt;/dte:Municipio&gt;&lt;dte:Departamento&gt;GUATEMALA&lt;/dte:Departamento&gt;&lt;dte:Pais&gt;GT&lt;/dte:Pais&gt;&lt;/dte:DireccionReceptor&gt;&lt;/dte:Receptor&gt;&lt;dte:Frases&gt;&lt;dte:Frase CodigoEscenario="1" TipoFrase="1"/&gt;&lt;/dte:Frases&gt;&lt;dte:Items&gt;&lt;dte:Item BienOServicio="B" NumeroLinea="1"&gt;&lt;dte:Cantidad&gt;1.00&lt;/dte:Cantidad&gt;&lt;dte:UnidadMedida&gt;UNI&lt;/dte:UnidadMedida&gt;&lt;dte:Descripcion&gt;Tortillas&lt;/dte:Descripcion&gt;&lt;dte:PrecioUnitario&gt;2.00&lt;/dte:PrecioUnitario&gt;&lt;dte:Precio&gt;2.00&lt;/dte:Precio&gt;&lt;dte:Descuento&gt;0&lt;/dte:Descuento&gt;&lt;dte:Impuestos&gt;&lt;dte:Impuesto&gt;&lt;dte:NombreCorto&gt;IVA&lt;/dte:NombreCorto&gt;&lt;dte:CodigoUnidadGravable&gt;1&lt;/dte:CodigoUnidadGravable&gt;&lt;dte:MontoGravable&gt;1.7857&lt;/dte:MontoGravable&gt;&lt;dte:MontoImpuesto&gt;0.2143&lt;/dte:MontoImpuesto&gt;&lt;/dte:Impuesto&gt;&lt;/dte:Impuestos&gt;&lt;dte:Total&gt;2.00&lt;/dte:Total&gt;&lt;/dte:Item&gt;&lt;/dte:Items&gt;&lt;dte:Totales&gt;&lt;dte:TotalImpuestos&gt;&lt;dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.2143"/&gt;&lt;/dte:TotalImpuestos&gt;&lt;dte:GranTotal&gt;2.00&lt;/dte:GranTotal&gt; &lt;/dte:Totales&gt;&lt;/dte:DatosEmision&gt;&lt;dte:Certificacion&gt;&lt;dte:NITCertificador&gt;50510231&lt;/dte:NITCertificador&gt;&lt;dte:NombreCertificador&gt;Megaprint, S.A.&lt;/dte:NombreCertificador&gt;&lt;dte:NumeroAutorizacion Numero="1942898304" Serie="E8CD3058"&gt;E8CD3058-73CE-4680-AFA1-E35FA629C801&lt;/dte:NumeroAutorizacion&gt;&lt;dte:FechaHoraCertificacion&gt;2022-06-24T16:07:46.237-06:00&lt;/dte:FechaHoraCertificacion&gt;&lt;/dte:Certificacion&gt;&lt;/dte:DTE&gt; &lt;/dte:SAT&gt;&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-3f8df77f-957c-4ade-95bd-08ff294a15e6"&gt;
+&lt;ds:SignedInfo&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/&gt;
+&lt;ds:Reference Id="xmldsig-3f8df77f-957c-4ade-95bd-08ff294a15e6-ref0" URI="#DatosEmision"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;
+&lt;ds:DigestValue&gt;pPihfZSvbhI/IxrJM/7eUYjDvE61SvzX8SobLWH4RkY=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-3f8df77f-957c-4ade-95bd-08ff294a15e6-signedprops"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;
+&lt;ds:DigestValue&gt;4eJ8vEk0+bOdxegl26CpMPFd05B4UXcTb6Obvy29ycQ=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="xmldsig-3f8df77f-957c-4ade-95bd-08ff294a15e6-sigvalue"&gt;
+RhwK4F6UKiKe9BLhbo6eGEQpAyINAkEV9IDqb71lQ7Wqc60RcNlFxVANq4WAkQXT5CjY9YEcPjaQ
+93ggppEjNaVa85coR/lplvWPXeKnOZ34ZwG/W9hgHmXmggFQdB3npdsjW+7vZibFWMWGOIArEtcN
+ICpYk2A6eXrqFN6Gmtyii5cdtbPfvcXo9SCxwWOBAlBCekHYy9E4cf3dnhrE3h41zrnK5pi99x1H
+kVM/grOcBm8sVXKBRXhjFFdXllZtP179NQW3Xjk3+WBKNF5nK/tjwsXLucaH9p4Npfm7d30OfnDi
+fCQJUBpvh8NX76TyVtd/OoRfW3R1vOWupmglMg==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIIDYDCCAkigAwIBAgIIL71qbDdNaoAwDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJp
+bnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIyMDYxNzE2NTAyMFoX
+DTI0MDYxNjE2NTAyMFowJzEQMA4GA1UEAwwHOTU0NTEzMTETMBEGA1UECgwKc2F0LmdvYi5ndDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALARWLENvUn2mGWp0DKfMdRi6lHwxqTvsyZ0
+yWRhMq769X/haouZU0PlJpCJmF+yQnakE1UfmNTQ49I3Eth4fP0wvMVvOhqvLJFz/Q4x2bRVxzsB
+FAhB6dE1Svaj3oenl7pTX147nRKvkhGYXHzW1+alT6eU2Sdecjh0dNpY3T+LuZ3F/KawgWbgFTcx
+NsnAbAF/xWRSbMIhBsmmB6y/StN0e4BeHoV92FLPHHR7phs6M/5VnhOVZ9q0lCjJwiarlfQZKFgd
+SNBLDvJJZtuVnUJyt2liKTBZIWjkD18LIyKIDEKG06s6zDFynZpbuuvnMqIvpq/hrSuVyw7yxz0r
+2M0CAwEAAaN/MH0wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRYgnaNWCixyUMEArTVyF5qL//4
+SjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0OBBYEFKRv8l0y5fmkQlElN2yf
+Cviu7AD1MA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAQEAU/usKmet4DWovebnv6zE
+MOWbz3B5Ew5RfTLyWLEv9Hmi9m86KBLPcE6bJsQzi2LgEaSeQDqH2xf/MlszkQan8RlyuJtsyV32
+j1SFYH2xkuRb5tq0M0ZyUVNwoNeTx/BfY0M38e59cT3R6VSic5Bfe4l3fiJ1lJulO30geTmM5aTQ
+zl09an8ttegk1eOkl2tvU2MSVuGU7QBD4HFrWhL2MVI2HYFEV+r/CNd5y7C4/tKqzqwCKFm6V9gx
+Hpzh4E+lLl10RWwZ9r2Gwsor8fJc3P6XkWaqI836KgFTRSu9VZOo/XqukTLS6v3QTw2kq/qJ/TYd
+a9svo/UFz6V6So9qhA==
+&lt;/ds:X509Certificate&gt;
+&lt;ds:X509SubjectName&gt;o=sat.gob.gt,cn=9545131&lt;/ds:X509SubjectName&gt;
+&lt;ds:X509IssuerSerial&gt;
+&lt;ds:X509IssuerName&gt;cn=Superintendencia de Administracion Tributaria&lt;/ds:X509IssuerName&gt;
+&lt;ds:X509SerialNumber&gt;3440022703397759616&lt;/ds:X509SerialNumber&gt;
+&lt;/ds:X509IssuerSerial&gt;
+&lt;/ds:X509Data&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object&gt;&lt;xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-3f8df77f-957c-4ade-95bd-08ff294a15e6"&gt;&lt;xades:SignedProperties Id="xmldsig-3f8df77f-957c-4ade-95bd-08ff294a15e6-signedprops"&gt;&lt;xades:SignedSignatureProperties&gt;&lt;xades:SigningTime&gt;2022-06-24T16:07:45.704-06:00&lt;/xades:SigningTime&gt;&lt;xades:SigningCertificate&gt;&lt;xades:Cert&gt;&lt;xades:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&lt;ds:DigestValue&gt;AfMqLAgLjGMPr+XJEq9oRthnw5ytUfm8ExxLKqIQdjA=&lt;/ds:DigestValue&gt;&lt;/xades:CertDigest&gt;&lt;xades:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;cn=Superintendencia de Administracion Tributaria&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;3440022703397759616&lt;/ds:X509SerialNumber&gt;&lt;/xades:IssuerSerial&gt;&lt;/xades:Cert&gt;&lt;/xades:SigningCertificate&gt;&lt;/xades:SignedSignatureProperties&gt;&lt;/xades:SignedProperties&gt;&lt;/xades:QualifyingProperties&gt;&lt;/ds:Object&gt;
+&lt;/ds:Signature&gt;&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-456f0907-4127-44dd-90d3-789bb3fc1056"&gt;
+&lt;ds:SignedInfo&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/&gt;
+&lt;ds:Reference Id="xmldsig-456f0907-4127-44dd-90d3-789bb3fc1056-ref0" URI="#DatosCertificados"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;
+&lt;ds:DigestValue&gt;HPU11o8lrzBB1MP9n0ZhGkqRmtcwcFBgysLTsqVfMzM=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-456f0907-4127-44dd-90d3-789bb3fc1056-signedprops"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;
+&lt;ds:DigestValue&gt;T0G7/iPRAMwJEtBGsmxMFgP74UBe6Ns4odmqPp6iQyU=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="xmldsig-456f0907-4127-44dd-90d3-789bb3fc1056-sigvalue"&gt;
+ilPwzHsGBxi3sxUEpXzYgDNTvYLuw3d5EuFsqn6q5PyzDLdzFKClv964iFIDsJM11wP/8c9lbd0k&amp;#13;
+qbuZq0vFZYbRW9bWCZmPXAZLi/AcC7ZqKWgNByf0zNcktL1rwXbjDph/OyiGwUOrzZ8eJK0zSdrF&amp;#13;
+19YdoBEImWdxHapAO3zTAvKk4P+x3mkPMLakPI7lnblfh9xlwamp0eb5JYQoc4CS4CMSDMgTQB1w&amp;#13;
+jlexHRuIRccjZpukNecS2mj9ObON7cybyZybY59cW7pO6JAioA/36Mvs6QEYdf3PSkIif01BDrrk&amp;#13;
+JGV9zI25zY+yKujaQa9XlWuIY5kvgJvMX5mwTw==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIIDYTCCAkmgAwIBAgIIYSJwAmvnnpswDQYJKoZIhvcNAQELBQAwODE2MDQGA1UEAwwtU3VwZXJp&amp;#13;
+bnRlbmRlbmNpYSBkZSBBZG1pbmlzdHJhY2lvbiBUcmlidXRhcmlhMB4XDTIwMTEyNzIwMzg0M1oX&amp;#13;
+DTIyMTEyNzIwMzg0M1owKDERMA8GA1UEAwwINTA1MTAyMzExEzARBgNVBAoMCnNhdC5nb2IuZ3Qw&amp;#13;
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCzP1fWW580avSxvhEIU53VansHu1oTsLHe&amp;#13;
+qnNJ0kGryNVhjNnAb7k5gSiqfMAuy18nsH1LwxAyMmSLCX8P7/7vzk4kbC/LIUbQPxUV4YjLH3rh&amp;#13;
+UmJ8uW05vobsYavDuPQkXYtLcEq9L8ofTLxtRbd+wmUWtgFqdPivS0XYi6OUNOlzFovW/RMtCOlz&amp;#13;
+oMBgzwYHW+PMjBoUfgvL1js6KRvjmF3K18xSe0+vxeMKwN/ey5+KsgJ6NtGNlmbZRiO59UdPS8f6&amp;#13;
+bnGJfbEvp0Yhk0wFHweUlbdfunKAPFWb37hq86IsJnSL565g0cNmVzOWwk6VWDaBkuCcTM7WIMOH&amp;#13;
+jJ83AgMBAAGjfzB9MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUWIJ2jVgosclDBAK01cheai//&amp;#13;
++EowHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBT/O/f4K1AjLsXTWinC&amp;#13;
+tspFx9/hMTAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggEBAC3MzrL5Mn2R8nCY/tRj&amp;#13;
+Y6kjBPsvHPeDGv4rFqr7/khJ+BNuPBxpNw4vYaizhA8BXs7V9BqxZoWaQ4O1ctsP3cfN2raEb3Tm&amp;#13;
+K6n0N/O2ZEnQLvbBi0WVr1prLlzdlZAorSIiwiJZFfOAHxOf2VXzOlkwHdrgeUv+EtzUyOHpkJaH&amp;#13;
+je4HbHmOibkiPdycqAihyQCxKyJDzNN5sSAbnuivWRmTK6j7fru6V5zgpuLnjigWEpVj/3JhPvyB&amp;#13;
+bidwjCNxXpKqEddrlkpAy5jCFmWxfo6PegolAlutmj9GTrf82SVWqsiI4IjRKGkz998VvK14njVX&amp;#13;
+xepSJqkf+A1lc1ny018=
+&lt;/ds:X509Certificate&gt;
+&lt;ds:X509SubjectName&gt;o=sat.gob.gt,cn=50510231&lt;/ds:X509SubjectName&gt;
+&lt;ds:X509IssuerSerial&gt;
+&lt;ds:X509IssuerName&gt;cn=Superintendencia de Administracion Tributaria&lt;/ds:X509IssuerName&gt;
+&lt;ds:X509SerialNumber&gt;6999279926589759131&lt;/ds:X509SerialNumber&gt;
+&lt;/ds:X509IssuerSerial&gt;
+&lt;/ds:X509Data&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object&gt;&lt;xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-456f0907-4127-44dd-90d3-789bb3fc1056"&gt;&lt;xades:SignedProperties Id="xmldsig-456f0907-4127-44dd-90d3-789bb3fc1056-signedprops"&gt;&lt;xades:SignedSignatureProperties&gt;&lt;xades:SigningTime&gt;2022-06-24T16:07:46.246-06:00&lt;/xades:SigningTime&gt;&lt;xades:SigningCertificate&gt;&lt;xades:Cert&gt;&lt;xades:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/&gt;&lt;ds:DigestValue&gt;TzoRULB6WpLe/xKW/Fhc9RRT4m40kns1DPPxLVwo7cU=&lt;/ds:DigestValue&gt;&lt;/xades:CertDigest&gt;&lt;xades:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;cn=Superintendencia de Administracion Tributaria&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;6999279926589759131&lt;/ds:X509SerialNumber&gt;&lt;/xades:IssuerSerial&gt;&lt;/xades:Cert&gt;&lt;/xades:SigningCertificate&gt;&lt;/xades:SignedSignatureProperties&gt;&lt;/xades:SignedProperties&gt;&lt;/xades:QualifyingProperties&gt;&lt;/ds:Object&gt;
+&lt;/ds:Signature&gt;&lt;/dte:GTDocumento&gt;</xml_dte><tipo_respuesta>0</tipo_respuesta><uuid>E8CD3058-73CE-4680-AFA1-E35FA629C801</uuid></RegistraDocumentoXMLResponse>

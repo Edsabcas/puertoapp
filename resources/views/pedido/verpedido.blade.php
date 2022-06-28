@@ -1,0 +1,1 @@
+@livewire('ver-pedido-component')

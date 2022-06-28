@@ -1,0 +1,1 @@
+@livewire('categoria-component')

@@ -616,7 +616,7 @@
                     <label class="form-label">Cambio Efectivo: </label>
                     <div class="input-group input-group-outline mb-3">
                       <input type="text" class="form-control" wire:model='cambio' placeholder="Q." disabled>
-                    </div>
+                    </div>    
                   </div>
                   @if($monto_efec!=null && $monto_efec>0 && $cambio>=0)
                   @include('cuenta.modalvaltippago')

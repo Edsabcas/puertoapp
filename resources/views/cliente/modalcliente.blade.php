@@ -28,12 +28,12 @@
                         <div class="input-group input-group-outline mb-3">
                           {{--   <button class="btn btn-outline-warning" wire:click="modalinsercliente" data-bs-toggle="modal" data-bs-target="#insertarcliente" type="button" id="button-addon1">+</button>
                            --}}  
-          {{--                  @if(($tipo_selc_imp!="" or $tipo_selc_imp!=null) && $tipo_selc_imp==1) --}}
+                           @if(($tipo_selc_impri!="" or $tipo_selc_impri!=null) && $tipo_selc_impri==1)
                            <input type="number" class="form-control" wire:model="nitcliente" placeholder="Nit">
                             <button class="btn btn-outline-success" wire:click="buscarCliente()" type="button" id="button-addon2">Buscar</button>
-                         {{--   @else --}}
+                           @else
                            <input type="text" class="form-control" wire:model="nitcliente" disabled>
-                           {{--  @endif --}}
+                            @endif
                     </div>
                     @error('nitcliente')
                     <div class="alert alert-warning d-flex align-items-center" role="alert">

@@ -16,7 +16,7 @@ class ComprobantemesaordenComponent extends Component
     public $noOrden,$no_mesa,$mesero,$fecha,$mon,$idpedido,$tpago,$nombreMesero;
     public $m,$cance,$op,$nom_cliente,$telef,$dire,$propinas,$valorpro,$monto_efec,$tpedido;
     public $valorinput,$notc,$cuentamasrecargo,$detallepedidos2;
-    public $tipo_selc_impri,$serie,$autorizacion,$dte,$nit_cert,$nomb_cert,$fecha_cert,$nombre_emisor,$nombre_comercial_emisor,$direccion_emisor,$nit_emisor;
+    public $tipo_selc_imp,$serie,$autorizacion,$dte,$nit_cert,$nomb_cert,$fecha_cert,$nombre_emisor,$nombre_comercial_emisor,$direccion_emisor,$nit_emisor;
    public $array1=array(),$cambio,$mo,$cuentainput;
     public $idpedg,$opad,$valorcambio,$t_pedido,$mprop,$valoradomicilio,$valoradomicilio1;
     public $estado_p,$estado_ex,$productos,$cui_unic;
@@ -157,7 +157,7 @@ class ComprobantemesaordenComponent extends Component
         public function cliente($val){
             if($val==1){
                 $this->existe="";
-                $this->tipo_selc_impri=$val;
+                $this->tipo_selc_imp=$val;
             }
             else if($val==2){
                 $this->reset([
@@ -169,7 +169,7 @@ class ComprobantemesaordenComponent extends Component
                 $this->nitcliente="CF";
                 $this->nombcliente="Consumidor final";
                 $this->direccioncliente=".";
-                $this->tipo_selc_impri=$val; 
+                $this->tipo_selc_imp=$val; 
             }
             else
             {
@@ -179,17 +179,17 @@ class ComprobantemesaordenComponent extends Component
                     'direccioncliente',
     
                 ]);
-                $this->tipo_selc_impri=$val; 
+                $this->tipo_selc_imp=$val; 
             }
         }
         public function guardar_tipo_doc(){
-            if($this->tipo_selc_impri==1){
+            if($this->tipo_selc_imp==1){
                 $this->cargainfo_fel();
             }
-            else if($this->tipo_selc_impri==2){
+            else if($this->tipo_selc_imp==2){
                 $this->cargainfo_fel();
             }
-            else if($this->tipo_selc_impri==3){
+            else if($this->tipo_selc_imp==3){
 
             }
         }
